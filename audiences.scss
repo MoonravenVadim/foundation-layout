@@ -1,0 +1,78 @@
+.audiences {
+    background-color: $background-color-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__title {
+        font-weight: 700;
+        margin: 0;
+        margin-top: 108px;
+    }
+
+    &__subtitle {
+        margin: 0;
+        margin-top: 24px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        width: 555px;
+    }
+
+    &__text {
+        width: 555px;
+        margin: 0;
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    &__buttons {
+        margin-top: 34px;
+
+        &__learn_more-btn {
+            width: 156px;
+            height: 46px;
+            border-radius: 0px;
+            border: none;
+            background-color: #fff;
+            font-weight: 698;
+            color: #000000;
+            font-size: 16px;
+            line-height: 11px;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 1140px;
+        margin-top: 111px;
+        margin-bottom: 110px;
+
+        &__item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #fff;
+            width: 262px;
+            height: 300px;
+            align-items: center;
+
+            &:hover {
+                background: $background-color-blue-active;
+            }
+
+            &__signature {
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 28px;
+                text-align: center;
+            }
+        }
+    }
+}
